@@ -8,7 +8,7 @@ from random import sample
 tupla = sample(range(1, 10,), 5)
 ordenada = sorted(tupla)
 print(tupla)
-print(f'O maior numero é: {ordenada[4]} e o menor é: {ordenada[0]}')
+print(f'O maior numero é: {ordenada[-1]} e o menor é: {ordenada[0]}')
 
 # SEGUNDA FORMA #
 from random import sample
